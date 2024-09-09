@@ -9,8 +9,8 @@ import SwiftUI
 import SwiftData
 
 @MainActor
-internal class ImageDatabase {
-    static var shared = ImageDatabase()
+internal class DMImageDatabase {
+    static var shared = DMImageDatabase()
     private let container: ModelContainer?
     private let context: ModelContext?
     
